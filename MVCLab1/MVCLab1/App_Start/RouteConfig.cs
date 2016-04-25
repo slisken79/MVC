@@ -11,26 +11,27 @@ namespace MVCLab1
     {
         public static void RegisterRoutes(RouteCollection routes)
         {
-        //    routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
-        //    routes.MapRoute(
-        //        name: "Eye",
-        //        url: "Laser/{action}/{id}",
-        //        defaults: new { controller = "Laser", action = "Eye", id = UrlParameter.Optional }
-        //);
-        //    routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
-        //    routes.MapRoute(
-        //        name: "Health",
-        //        url: "Life/{action}/{id}",
-        //        defaults: new { controller = "Life", action = "Health", id = UrlParameter.Optional }
-        //);
-        //    routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
-
-        //    routes.MapRoute(
-        //        name: "B2B",
-        //        url: "Sell/{action}/{id}",
-        //        defaults: new { controller = "Sell", action = "B2B", id = UrlParameter.Optional }
-        //);
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
+            
+            ROUTES.MAPROUTE(
+               NAME: "EYE",
+               URL: "LASER/{ACTION}/{ID}",
+               DEFAULTS: NEW { CONTROLLER = "LASER", ACTION = "EYE", ID = URLPARAMETER.OPTIONAL }
+            );
+          
+            ROUTES.MAPROUTE(
+                NAME: "HEALTH",
+                URL: "LIFE/{ACTION}/{ID}",
+                DEFAULTS: NEW { CONTROLLER = "LIFE", ACTION = "HEALTH", ID = URLPARAMETER.OPTIONAL }
+            );
+        
+
+            ROUTES.MAPROUTE(
+              NAME: "B2B",
+                URL: "SELL/{ACTION}/{ID}",
+                DEFAULTS: NEW { CONTROLLER = "SELL", ACTION = "B2B", ID = URLPARAMETER.OPTIONAL }
+            );
+            
 
             routes.MapRoute(
                 name: "Default",
