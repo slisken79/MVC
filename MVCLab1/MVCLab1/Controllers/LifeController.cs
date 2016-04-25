@@ -21,8 +21,10 @@ namespace MVCLab1.Controllers
         {
             return View();
         }
-        public ActionResult Live()
+        public ActionResult Live(int? id)
         {
+            if(id != null)
+            ViewBag.live = id;
             return View();
         }
     }
