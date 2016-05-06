@@ -1,0 +1,5 @@
+C:\Users\slisk_000\Downloads\MVCGrupp4-master\MVCGrupp4-master\Grupp4\Game21\bin\Debug\Game21.exe.config
+C:\Users\slisk_000\Downloads\MVCGrupp4-master\MVCGrupp4-master\Grupp4\Game21\bin\Debug\Game21.exe
+C:\Users\slisk_000\Downloads\MVCGrupp4-master\MVCGrupp4-master\Grupp4\Game21\bin\Debug\Game21.pdb
+C:\Users\slisk_000\Downloads\MVCGrupp4-master\MVCGrupp4-master\Grupp4\Game21\obj\Debug\Game21.exe
+C:\Users\slisk_000\Downloads\MVCGrupp4-master\MVCGrupp4-master\Grupp4\Game21\obj\Debug\Game21.pdb

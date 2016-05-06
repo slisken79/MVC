@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Grupp4", "Grupp4\Grupp4.csproj", "{60A001CA-A7C9-4B9F-A168-B933BAB1009A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Game21", "Game21\Game21.csproj", "{DB9266B0-E590-441C-AF63-214559D44431}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicTacToe", "TicTacToe\TicTacToe.csproj", "{ADF917A3-30C2-4A12-9B44-9D62B9650F86}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{60A001CA-A7C9-4B9F-A168-B933BAB1009A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60A001CA-A7C9-4B9F-A168-B933BAB1009A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60A001CA-A7C9-4B9F-A168-B933BAB1009A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60A001CA-A7C9-4B9F-A168-B933BAB1009A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB9266B0-E590-441C-AF63-214559D44431}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB9266B0-E590-441C-AF63-214559D44431}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB9266B0-E590-441C-AF63-214559D44431}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB9266B0-E590-441C-AF63-214559D44431}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADF917A3-30C2-4A12-9B44-9D62B9650F86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADF917A3-30C2-4A12-9B44-9D62B9650F86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADF917A3-30C2-4A12-9B44-9D62B9650F86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADF917A3-30C2-4A12-9B44-9D62B9650F86}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
