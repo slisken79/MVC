@@ -1,0 +1,23 @@
+﻿@model Labb4MVC.Models.Game21
+
+<h3>@Model.Announcement</h3>
+@using (Ajax.BeginForm("Spel", "Game21", new AjaxOptions { UpdateTargetId = "gameContainer" }))
+{
+    <h1>@Model.Total</h1><br />
+
+    if (Model.Announcement == null)
+    {
+        <button type="submit" value="1" name="Add" class="btn btn-secondary">Add 1</button>
+        <button type="submit" value="2" name="Add" class="btn btn-secondary">Add 2</button>
+    }
+    else
+    {
+        @Ajax.ActionLink("New Game", "Spel", "Game21", new AjaxOptions { UpdateTargetId = "gameContainer" })
+    }
+}
+
+
+
+
+
+
