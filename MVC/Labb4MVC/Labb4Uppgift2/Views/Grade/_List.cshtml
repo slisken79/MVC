@@ -1,0 +1,23 @@
+﻿@model IEnumerable<Labb4Uppgift2.Models.Grade>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.CourseName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.GradeValue)
+        </th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.CourseName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.GradeValue)
+        </td>
+    </tr>
+}
+</table>

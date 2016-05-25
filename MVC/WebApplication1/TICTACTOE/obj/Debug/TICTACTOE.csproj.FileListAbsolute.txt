@@ -1,0 +1,6 @@
+C:\Users\slisk_000\Documents\GitHubVisualStudio\WebApplication1\TICTACTOE\bin\Debug\TICTACTOE.exe.config
+C:\Users\slisk_000\Documents\GitHubVisualStudio\WebApplication1\TICTACTOE\obj\Debug\TICTACTOE.csprojResolveAssemblyReference.cache
+C:\Users\slisk_000\Documents\GitHubVisualStudio\WebApplication1\TICTACTOE\bin\Debug\TICTACTOE.exe
+C:\Users\slisk_000\Documents\GitHubVisualStudio\WebApplication1\TICTACTOE\bin\Debug\TICTACTOE.pdb
+C:\Users\slisk_000\Documents\GitHubVisualStudio\WebApplication1\TICTACTOE\obj\Debug\TICTACTOE.exe
+C:\Users\slisk_000\Documents\GitHubVisualStudio\WebApplication1\TICTACTOE\obj\Debug\TICTACTOE.pdb

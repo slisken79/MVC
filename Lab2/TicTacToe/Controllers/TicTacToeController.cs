@@ -13,7 +13,7 @@ namespace TicTacToe.Controllers
         public ActionResult Index()
         {
             var ticModel = new TicTacToeModel();
-            this.Session["Tic"] = ticModel;
+            Session["Tic"] = ticModel;
             return View(ticModel);
 
         }
@@ -30,10 +30,10 @@ namespace TicTacToe.Controllers
             if (choice == 10)
             {
                 var ticModel2 = new TicTacToeModel();
-                this.Session["Tic"] = ticModel2;
+                Session["Tic"] = ticModel2;
                 return View(ticModel2);
             }         
-            var ticModel = (TicTacToeModel) this.Session["Tic"];
+            var ticModel = (TicTacToeModel) Session["Tic"];
             ticModel.Human(choice.Value);
            
             return View(ticModel);

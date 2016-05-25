@@ -1,0 +1,22 @@
+﻿body {
+
+}
+.button {
+    width: 100px;
+    height: 100px;
+    background-color:lightsalmon;
+    color:black;
+    
+    
+}
+#buttonReset {
+    width: 120px;
+    height: 40px;
+    background-color:dimgray;
+    margin-left: 93px;
+}
+h3{
+    color:red;
+}
+
+

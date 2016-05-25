@@ -1,0 +1,6 @@
+C:\Users\slisk_000\Documents\GitHubVisualStudio\MSTestEdderkoppen\MSTestEdderkoppen\bin\Debug\MSTestEdderkoppen.exe.config
+C:\Users\slisk_000\Documents\GitHubVisualStudio\MSTestEdderkoppen\MSTestEdderkoppen\bin\Debug\MSTestEdderkoppen.exe
+C:\Users\slisk_000\Documents\GitHubVisualStudio\MSTestEdderkoppen\MSTestEdderkoppen\bin\Debug\MSTestEdderkoppen.pdb
+C:\Users\slisk_000\Documents\GitHubVisualStudio\MSTestEdderkoppen\MSTestEdderkoppen\obj\Debug\MSTestEdderkoppen.csprojResolveAssemblyReference.cache
+C:\Users\slisk_000\Documents\GitHubVisualStudio\MSTestEdderkoppen\MSTestEdderkoppen\obj\Debug\MSTestEdderkoppen.exe
+C:\Users\slisk_000\Documents\GitHubVisualStudio\MSTestEdderkoppen\MSTestEdderkoppen\obj\Debug\MSTestEdderkoppen.pdb

@@ -109,9 +109,6 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\Cell.cs" />
-    <Compile Include="Models\Game.cs" />
-    <Compile Include="Models\Grid.cs" />
     <Compile Include="Models\TicTacToeModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

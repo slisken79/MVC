@@ -12,12 +12,14 @@ namespace Game21MVC.Models
 
         public void AddNr(int tal)
         {
-            if (Total <= 21)
+            if (Total < 21)
             {
                 Total += tal;
-                if (Total == 21)
+                if (Total >= 21)
                 {
+                    
                     Announcement = "You Win!!";
+                    Total = 21;
                 }
             }
 
