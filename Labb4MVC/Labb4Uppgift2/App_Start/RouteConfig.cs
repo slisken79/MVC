@@ -11,6 +11,7 @@ namespace Labb4Uppgift2
     {
         public static void RegisterRoutes(RouteCollection routes)
         {
+            //Routing
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
             routes.MapRoute(
