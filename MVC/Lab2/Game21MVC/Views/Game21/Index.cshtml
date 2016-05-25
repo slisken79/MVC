@@ -1,0 +1,15 @@
+﻿
+@model Game21MVC.Models.GameOf21
+@{
+    ViewBag.Title = "Index";
+}
+<h2>Game Of 21</h2>
+<h3>@Model.Announcement</h3>
+@using (Html.BeginForm("Index", "Game21"))
+{
+    <h1>@Model.Total</h1><br />
+
+    <button type="submit" value="1" name="Add" class="btn btn-secondary">1</button>
+    <button type="submit" value="2" name="Add" class="btn btn-secondary">2</button><br />
+}
+

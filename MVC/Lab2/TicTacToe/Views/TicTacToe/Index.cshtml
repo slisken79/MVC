@@ -1,0 +1,37 @@
+﻿@*@model TicTacToe.Models.TicTacToeModel*@
+
+<link href="~/CSS/ButtonStyle.css" rel="stylesheet"/>
+
+@{
+    ViewBag.Title = "Tic Toc Toe Game";
+}
+
+<h2>Tic Tac Toe Game</h2>
+<h3>@Model.Output</h3>
+
+@using (Html.BeginForm("Index", "TicTacToe"))
+{
+    for (int i = 1; i < @Model.Board.Length; i++)
+    {
+
+        <button id="btn" type="submit"  value="@i" class="button"  name="choice" @Model.DisableBtn(i)>@Convert.ToChar(Model.Board[i]) </button>
+        if (i == 3 || i == 6)
+        {
+            <br />
+        }
+
+
+    }
+    <br />
+    <br />
+    for (int j = 10; j < 11; j++)
+    {
+        <button id="buttonReset" type="submit" value="@j" name="choice">Reset Game</button>
+    }
+
+
+
+}
+
+
+

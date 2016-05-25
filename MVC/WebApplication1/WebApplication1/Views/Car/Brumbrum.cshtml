@@ -1,0 +1,14 @@
+﻿@{int[] mynum = { 1, 2, 3, 4, 5 };}
+@{
+    ViewBag.Title = "Brumbrum";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Brumbrum</h2>
+<ul>
+    @foreach (var item in mynum)
+    {
+        <p> @item</p>
+    }
+</ul>
+

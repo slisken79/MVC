@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCTentaTest", "MVCTentaTest\MVCTentaTest.csproj", "{9E9411CF-388D-4C57-9C8A-313E9D562944}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoutingTestTenta", "RoutingTestTenta\RoutingTestTenta.csproj", "{106FF9F1-9A8E-4E51-B201-F70C94A8A301}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9E9411CF-388D-4C57-9C8A-313E9D562944}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E9411CF-388D-4C57-9C8A-313E9D562944}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E9411CF-388D-4C57-9C8A-313E9D562944}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E9411CF-388D-4C57-9C8A-313E9D562944}.Release|Any CPU.Build.0 = Release|Any CPU
+		{106FF9F1-9A8E-4E51-B201-F70C94A8A301}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{106FF9F1-9A8E-4E51-B201-F70C94A8A301}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{106FF9F1-9A8E-4E51-B201-F70C94A8A301}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{106FF9F1-9A8E-4E51-B201-F70C94A8A301}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

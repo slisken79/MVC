@@ -1,0 +1,29 @@
+﻿@model CakesMVC.Models.ReviewModel 
+@{
+    ViewBag.Title = "Review";
+}
+<h2>Add Review</h2>
+@using (Html.BeginForm()) {
+    foreach (var property in Model.GetType().GetProperties())
+    {
+        <tr>
+          <td>  @Html.Label(property.Name + "Input", property.Name)</td>
+            <br />
+            <td>@Html.TextBox(property.Name, "",new { Id = property.Name + "Input" })</td>
+            <br />
+            <td>@Html.ValidationMessage(property.Name, new { @style = "color:red;!important" })</td>
+            <br />
+
+        </tr>
+    }
+    <input type="submit" value="Send" />
+}
+
+@*@Html.DisplayNameFor(m => m.Name);
+    @Html.EditorFor(m => m.Name)
+    @Html.DisplayNameFor(m => m.Ingredients);
+    @Html.EditorFor(m => m.Ingredients)
+    @Html.DisplayNameFor(m => m.CookingTime);
+    @Html.EditorFor(m => m.CookingTime)
+    @Html.DisplayNameFor(m => m.Summary);
+    @Html.EditorFor(m => m.Summary)*@
