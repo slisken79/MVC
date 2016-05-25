@@ -14,7 +14,7 @@ namespace Labb4Uppgift2
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
             routes.MapRoute(
-                name: "Default",
+                name: "´Student",
                 url: "{controller}/{action}/{id}",
                 defaults: new { controller = "Student", action = "Index", id = UrlParameter.Optional }
             );
